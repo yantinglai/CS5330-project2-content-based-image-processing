@@ -1,0 +1,7 @@
+# Ignore specific files
+embeddings.csv
+generate_embeddings.py
+output.log
+
+# Ignore olympus folder
+olympus/
