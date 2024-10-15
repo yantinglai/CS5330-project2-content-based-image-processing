@@ -28,3 +28,32 @@ cd build
 cmake ..
 make
 ```
+
+### Step 2: Run the Image Retrieval Program
+
+To execute the program, run the following command:
+
+```bash
+./imgRetrieval <image_directory> <target_image_path> <N> <method> <csv_file>
+```
+
+### Example Command for COMBINED METHOD
+
+```bash
+./imgRetrieval /Users/sundri/Desktop/CS5330/Project2/olympus /Users/sundri/Desktop/CS5330/Project2/olympus/pic.0284.jpg 5 COMBINED /Users/sundri/Desktop/CS5330/Project2/embeddings.csv
+```
+
+### Example Output COMBINED METHOD
+
+```bash
+Top 5 matching images based on COMBINED method:
+
+Image: /Users/sundri/Desktop/CS5330/Project2/olympus/pic.0273.jpg, Similarity Value: 0.925
+Image: /Users/sundri/Desktop/CS5330/Project2/olympus/pic.0401.jpg, Similarity Value: 0.910
+Image: /Users/sundri/Desktop/CS5330/Project2/olympus/pic.1031.jpg, Similarity Value: 0.905
+Image: /Users/sundri/Desktop/CS5330/Project2/olympus/pic.0305.jpg, Similarity Value: 0.895
+Image: /Users/sundri/Desktop/CS5330/Project2/olympus/pic.0986.jpg, Similarity Value: 0.885
+
+```
+
+### Travel Days Used: 5
